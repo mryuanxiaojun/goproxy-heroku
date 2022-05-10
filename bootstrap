@@ -6,4 +6,4 @@ echo "#####################"
 cd /app
 #./proxy http -p :$PORT -t ws --local-ws-password pass
 #./proxy http -p :$PORT -t tcp -m -z yuan@654123022
-./proxy http -p :$PORT -t tcp -m ws --local-ws-password yuan@654123022
+./proxy http -p :$PORT -t ws --local-ws-password yuan@654123022 -m
